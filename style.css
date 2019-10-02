@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+#headerTitle {
+    background-color: darkcyan;
+    color: yellow;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#container1 {
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    background-color: white;
+    border: 5px solid lightseagreen;
+    border-radius: 2rem;
+    box-shadow: 5px 10px darkcyan;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#paragraph {
+    font-size: xx-large;
+    color: purple;
+    margin: 15px 25px;
+    font-family: 'Passion One', cursive;
+}
+
+#listOfPL {
+    margin-left: 75px;
+    color: chocolate;
+    font-size: 1.5rem;
+    font-family: 'Passion One', cursive;
+}
+
+.labelName {
+    margin: 5px;
+    margin-left: 35px;
+}
+
+#lastNameDiv {
+    margin-bottom: 25px;
+}
+
+.input{
+    color: red;
+}
